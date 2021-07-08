@@ -48,6 +48,7 @@ section h1 {
   font-size: 4rem;
   font-weight: 800;
   z-index: 1;
+  -webkit-text-stroke: 0.2vh black;
 }
 
 section p {
