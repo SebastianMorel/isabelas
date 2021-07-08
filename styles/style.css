@@ -197,13 +197,13 @@ section#contact{
   .home_contact p,
   .home_aboutus p,
   .home_services p{
-    font-size: 1.2vh;
+    font-size: 1vh;
   }
 
   .home_contact h2,
   .home_aboutus h2,
   .home_services h2{
-    font-size: 2vh;
+    font-size: 1.8vh;
   }
 
   #mailsize{
@@ -215,17 +215,17 @@ section#contact{
   .home_contact p,
   .home_aboutus p,
   .home_services p{
-    font-size: 1.0vh;
+    font-size: 0.8vh;
   }
 
   .home_contact h2,
   .home_aboutus h2,
   .home_services h2{
-    font-size: 1.7vh;
+    font-size: 1.4vh;
   }
 
   #mailsize{
-    font-size: 0.8vh;
+    font-size: 0.6vh;
   }
 }
 
@@ -314,7 +314,7 @@ header{
 footer{
   position: fixed;
   display: none;
-  height: 50px;
+  height: 30px;
   background-color: #dc143c;
   width: 100%;
   bottom: 0;
@@ -324,9 +324,9 @@ footer{
 .footphone{
   position:absolute; 
   color: #fff; 
-  font-size: 8vw; 
+  font-size: 6vw; 
   top: 13%; 
-  left: 10%;
+  left: 22.5%;
 }
 
 @media (min-width: 440px){
