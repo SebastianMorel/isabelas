@@ -35,6 +35,12 @@ section {
   scroll-snap-align: center;
 }
 
+@media (max-width: 780px){
+  section {
+    scroll-snap-align: unset;
+  }
+}
+
 section h1 {
   margin-top: 100px;
   color: #fff;
