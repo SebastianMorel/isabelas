@@ -62,7 +62,7 @@ section#home{
 }
 
 section#aboutus{
-  background: url('https://www.stathakis.com/hubfs/bigstock-Cleaning-lady-mopping-the-floo-255014095.jpg') no-repeat center center/cover;
+  background: url('images/bg2.jpg') no-repeat center center/cover;
   position: relative;
 }
 
@@ -72,7 +72,7 @@ section#portfolio{
 }
 
 section#contact{
-  background: url('https://www.snowwhitecleaners.co.uk/images/IMG_0435.jpg') no-repeat center center/cover;
+  background: url('images/bg4.jpg') no-repeat center center/cover;
   position: relative;
 }
 
@@ -376,7 +376,6 @@ section#contact{
   }
 }
 
-
 @media (max-width: 660px) and (min-height: 1000px) {
   .grid-wrapper{
     grid-template-columns: repeat(2, 1fr);
@@ -669,20 +668,6 @@ footer{
   display: none;
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  background-color: #000;
-  opacity: 0.8;
-  width: fit-content;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  text-align: center;
-}
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -732,7 +717,7 @@ footer{
 
 #map {
   position:absolute;
-  bottom: 10%;
+  bottom: 80px;
   height: 25%;
   width: 60%;
 }
