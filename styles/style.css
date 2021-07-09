@@ -347,36 +347,6 @@ section#contact{
   }
 }
 
-@media (max-width: 500px){
-  .box img{
-    height: 7vh;
-    width: 7vh;
-  }
-
-  .box p{
-    font-size: 0.9vh;
-  }
-
-  .box h2{
-    font-size: 1.2vh;
-  }
-}
-
-@media (max-width: 400px){
-  .box img{
-    height: 6vh;
-    width: 6vh;
-  }
-
-  .box p{
-    font-size: 0.7vh;
-  }
-
-  .box h2{
-    font-size: 1vh;
-  }
-}
-
 @media (max-width: 660px) and (min-height: 1000px) {
   .grid-wrapper{
     grid-template-columns: repeat(2, 1fr);
