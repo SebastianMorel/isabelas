@@ -387,7 +387,12 @@ footer{
     left: 22.5%;
     font-size: 6vw;
   }
+}
 
+@media (max-width: 780px){
+  .phone-navigation{
+    display: none;
+  }
 }
 
 #phone{
@@ -588,42 +593,6 @@ footer{
 
 .line{
   border-bottom:2px solid #bbb;
-}
-
-/* ------------------------------------------------------------------------------ BEFORE AFTER ------------------------------------------------------------------------------ */
-.grid_wrap2{
-  position: absolute;
-  top: 25vh;
-  left: 22.5%;
-  width: 55%;
-  height: 65%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.img-comp-container {
-  position: relative;
-  height: auto;
-  border-radius: 0.3em;
-}
-
-.img-comp-img {
-  position: absolute;
-  width: auto;
-  height: 20vh;
-  overflow: hidden;
-  border-radius: 2%;
-}
-
-.img-comp-slider {
-  position: absolute;
-  z-index: 1;
-  cursor: ew-resize;
-  /*set the appearance of the slider:*/
-  width: 30px;
-  height: 50px;
-  background: url('images/drag.png') no-repeat center center/cover;
-  transform: rotate(90deg);
 }
 
 /* ----------------------------------------------------------------------------- SLIDESHOW ------------------------------------------------------------------------------ */

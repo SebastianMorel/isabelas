@@ -19,6 +19,17 @@ $('.menu-btn').on('click', function () {
   $('.phone-navigation').toggle();
 });
 
+$('.phone-navigation').on('click', function () {
+  $('.phone-navigation').toggle();
+  if(!menuOpen) {
+    menuBtn.classList.add('open');
+    menuOpen = true;
+  } else {
+    menuBtn.classList.remove('open');
+    menuOpen = false;
+  }
+});
+
 //SLIDESHOW
 var slideIndex = 1;
 showSlides(slideIndex);
