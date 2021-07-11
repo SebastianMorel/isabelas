@@ -331,7 +331,7 @@ section#contact{
 
 .box img{
   float: right;
-  height: 80%;
+  height: 7vh;
   width: 18%;
 }
 
@@ -347,8 +347,8 @@ section#contact{
 
   .box img{
     float: none;
-    width: 80%;
     height: 8vh;
+    width: 8vh;
   }
 
   .box p{
@@ -373,11 +373,6 @@ section#contact{
     font-size: 4vh;
   }
 
-  .box img{
-    height: 10vh;
-    width: 10vh;
-  }
-
   .box p{
     font-size: 1.5vh;
   }
@@ -388,10 +383,6 @@ section#contact{
 }
 
 @media (max-width: 680px){
-  .box img{
-    height: 8vh;
-    width: 8vh;
-  }
 
   .box p{
     font-size: 1.3vh;
@@ -404,17 +395,24 @@ section#contact{
 
 
 @media (max-width: 590px){
-  .box img{
-    height: 8vh;
-    width: 8vh;
-  }
 
   .box p{
     font-size: 1.1vh;
   }
 
   .box h2{
-    font-size: 1.5vh;
+    font-size: 1.4vh;
+  }
+}
+
+@media (max-width: 400px){
+
+  .box p{
+    font-size: 1vh;
+  }
+
+  .box h2{
+    font-size: 1.2vh;
   }
 }
 
