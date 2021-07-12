@@ -57,22 +57,22 @@ section p {
   font-weight: 300;
 }
 
-section#home{
+section#hem{
   background: #000;
   position: relative;
 }
 
-section#aboutus{
+section#tjanster{
   background: url('images/bg2.jpg') no-repeat center center/cover;
   position: relative;
 }
 
-section#portfolio{
+section#galleri{
   background: url('images/portfolio-bg.jpg') no-repeat center center/cover;
   position: relative;
 }
 
-section#contact{
+section#kontaktaoss{
   background: url('images/bg4.jpg') no-repeat center center/cover;
   position: relative;
 }
