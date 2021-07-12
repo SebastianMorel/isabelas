@@ -670,12 +670,13 @@ footer{
 .slideshow-container {
   width: 100%;
   height: 50%;
-  position: absolute;
+  position: relative;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  position: relative;
+  height: 50%;
 }
 
 /* Fading animation */
