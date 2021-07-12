@@ -715,9 +715,10 @@ footer{
   height: auto; 
   background-color: gray; 
   opacity: 0.8; 
-  padding: 2%; 
+  padding: 1.5%; 
   border-radius: 2%;
-  margin-top: 25px;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 .contactinfo p {
@@ -726,8 +727,7 @@ footer{
 }
 
 #map {
-  position:absolute;
-  bottom: 80px;
-  height: 25%;
-  width: 60%;
+  position:relative;
+  width: 40%;
+  height: 40%;
 }
