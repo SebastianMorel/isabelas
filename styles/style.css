@@ -667,34 +667,28 @@ footer{
 
 /* ----------------------------------------------------------------------------- SLIDESHOW ------------------------------------------------------------------------------ */
 /* Slideshow container */
-.slideshow-container {
+.deskHeader {
   width: 100%;
   height: 50%;
-  position: relative;
+  position: absolute;
+  display: block;
 }
 
-/* Hide the images by default */
-.mySlides {
-  position: relative;
+.phoneHeader {
+  width: 100%;
   height: 50%;
+  position: absolute;
+  display: none;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+@media (max-width:780px){
+  .deskHeader {
+    display: none;
+  }
+  
+  .phoneHeader {
+    display: block;
+  }
 }
 
 /* ----------------------------------------------------------------------------- CONTACT ------------------------------------------------------------------------------ */
