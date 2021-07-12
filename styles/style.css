@@ -700,7 +700,7 @@ footer{
 .contact_title{
   color: #fff;
   font-weight: 800;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 
 .contact_home{
@@ -723,11 +723,18 @@ footer{
 
 .contactinfo p {
   color: white;
-  font-size: 1.5vh;
+  font-size: 2.5vh;
 }
 
 #map {
   position:relative;
-  width: 40%;
+  width: 30%;
   height: 40%;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 700px){
+#map{
+  width: 50%;
+}
 }
